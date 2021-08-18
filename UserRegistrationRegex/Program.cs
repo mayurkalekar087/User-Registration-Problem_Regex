@@ -7,6 +7,8 @@ namespace UserRegistrationRegex
         static void Main(string[] args)
         {
             Console.WriteLine("User Registration!");
+            Patterns patterns = new Patterns();
+            Console.WriteLine(patterns.validateFirstName("Mayur"));
         }
     }
 }
