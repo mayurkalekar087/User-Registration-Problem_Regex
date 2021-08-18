@@ -27,7 +27,7 @@ namespace UserRegistrationRegex
         {
             return Regex.IsMatch(PhoneNumber, REGEX_PHONENUMBER);
         }
-        public static string REGEX_PASSWORD = @"^(.{0,7}|[^0-9]*|[^A-Z])$";
+        public static string REGEX_PASSWORD = "?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,15})$";
         public bool validatePassWord(string PassWord)
         {
             return Regex.IsMatch(PassWord, REGEX_PASSWORD);
