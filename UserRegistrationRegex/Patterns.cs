@@ -17,5 +17,10 @@ namespace UserRegistrationRegex
         {
             return Regex.IsMatch(LastName, REGEX_LASTNAME);
         }
+        public static string REGEX_EMAILID = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+        public bool validateEmailId(string EmailId)
+        {
+            return Regex.IsMatch(EmailId, REGEX_EMAILID);
+        }
     }
 }

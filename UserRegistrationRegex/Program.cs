@@ -10,6 +10,7 @@ namespace UserRegistrationRegex
             Patterns patterns = new Patterns();
             Console.WriteLine(patterns.validateFirstName("Mayur"));
             Console.WriteLine(patterns.validateLastName("Kalekar"));
+            Console.WriteLine(patterns.validateEmailId("mayurkalekar@gmail.com"));
         }
 
     }
