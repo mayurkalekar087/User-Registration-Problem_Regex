@@ -12,7 +12,8 @@ namespace UserRegistrationRegex
             Console.WriteLine(patterns.validateLastName("Kalekar"));
             Console.WriteLine(patterns.validateEmailId("mayurkalekar@gmail.com"));
             Console.WriteLine(patterns.validatePhoneNumber("8805291711"));
-            Console.WriteLine(patterns.validatePassWord("mayurkalekar@"));
+            Console.WriteLine(patterns.validatePassWord("MayurKalekar@"));
+
         }
 
     }
