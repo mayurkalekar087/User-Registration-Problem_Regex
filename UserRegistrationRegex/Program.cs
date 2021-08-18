@@ -9,6 +9,8 @@ namespace UserRegistrationRegex
             Console.WriteLine("User Registration!");
             Patterns patterns = new Patterns();
             Console.WriteLine(patterns.validateFirstName("Mayur"));
+            Console.WriteLine(patterns.validateLastName("Kalekar"));
         }
+
     }
 }
